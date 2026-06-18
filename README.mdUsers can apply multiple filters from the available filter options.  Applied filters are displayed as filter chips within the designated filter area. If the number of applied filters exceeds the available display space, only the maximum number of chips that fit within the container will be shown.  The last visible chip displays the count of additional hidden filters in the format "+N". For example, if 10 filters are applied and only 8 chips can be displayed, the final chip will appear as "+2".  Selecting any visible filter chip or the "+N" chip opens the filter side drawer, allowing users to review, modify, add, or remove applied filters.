@@ -1,1 +1,15 @@
-Extreme right side, one chip is dedicated for RAG filters. In case if the user applied any RAG filters, that will be visible on extreme right side as one chip. If it's not applied, that area will be blank.
+Users can apply multiple filters from the available filter options.
+
+Applied filters are displayed as filter chips within the designated filter area. If the number of applied filters exceeds the available display space, only the maximum number of chips that fit within the container will be shown.
+
+
+
+The filter side drawer contains all available filter options, including both table filters and RAG filters. If the number of filter options exceeds the available viewport height, the filter section becomes scrollable.
+
+The footer actions remain sticky and always visible, regardless of the scroll position. The footer includes:
+
+• Apply — Applies the selected filters and updates the results.
+
+• Cancel — Closes the side drawer without applying any changes made during the current session.
+
+• Reset — Clears all applied filters and restores the default filter state. The reset action is applied only after the user selects Apply.
