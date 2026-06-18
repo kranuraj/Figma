@@ -1,7 +1,1 @@
-Users can apply multiple filters from the available filter options.
-
-Applied filters are displayed as filter chips within the designated filter area. If the number of applied filters exceeds the available display space, only the maximum number of chips that fit within the container will be shown.
-
-The last visible chip displays the count of additional hidden filters in the format "+N". For example, if 10 filters are applied and only 8 chips can be displayed, the final chip will appear as "+2".
-
-Selecting any visible filter chip or the "+N" chip opens the filter side drawer, allowing users to review, modify, add, or remove applied filters.
+Extreme right side, one chip is dedicated for RAG filters. In case if the user applied any RAG filters, that will be visible on extreme right side as one chip. If it's not applied, that area will be blank.
