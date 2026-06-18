@@ -1,1 +1,9 @@
-When the user selects the Reset Filters option, a confirmation dialog is displayed. Upon confirmation, all applied filters are cleared and the view is restored to its default state.
+After executing a search and viewing the results, users can share the current report view using the Copy URL action.
+
+Selecting Copy URL copies a unique URL representing the current search results and applied view state to the user's clipboard. This URL can then be shared through email, Microsoft Teams, or other communication channels.
+
+Upon successful copy, a confirmation toast message is displayed:
+
+"URL copied to clipboard."
+
+Recipients who access the shared URL are directed to the same report view, including the associated search query and applied filters.
