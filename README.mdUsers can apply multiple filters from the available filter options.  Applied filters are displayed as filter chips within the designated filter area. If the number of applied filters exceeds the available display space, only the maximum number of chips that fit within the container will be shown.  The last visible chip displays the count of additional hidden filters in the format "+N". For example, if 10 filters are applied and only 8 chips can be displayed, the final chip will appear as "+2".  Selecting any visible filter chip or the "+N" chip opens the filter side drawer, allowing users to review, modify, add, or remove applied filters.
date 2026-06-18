@@ -1,6 +1,4 @@
-Users can apply multiple filters from the available filter options.
-
-Applied filters are displayed as filter chips within the designated filter area. If the number of applied filters exceeds the available display space, only the maximum number of chips that fit within the container will be shown.
+A dedicated RAG filter chip is positioned at the extreme right of the filter bar. When one or more RAG filters are applied, they are represented within this chip. If no RAG filters are applied, this space remains empty.
 
 
 
